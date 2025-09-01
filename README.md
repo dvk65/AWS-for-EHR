@@ -2,7 +2,7 @@
 Secure Cloud Computing for NLP tasks involving private data from Electronic Health Records
 
 This jupyter notebook has code blocks to interract with AWS services at different instances. The complete flow of the project was as follows:<br>
-![project flow]([image-url](https://github.com/dvk65/AWS-for-EHR/blob/main/FlowChart.png))
+!([project flow](https://github.com/dvk65/AWS-for-EHR/blob/main/FlowChart.png))
 The project started by completing the "Data or Specimens Only Research" training from the Physionet CITI Program. The completion report received after this course was sent to our supervisor who then confirmed it with the Physionet team and we got access to the MIMIC-III data. <br>
 The data was available in an S3 bucket on AWS in the form of 27 csv files. These files were merged to form one file. The merged csv was further filtered to contain only relevant columns that had text or descriptive data and rows with less than 10 NaN values. <br>
 Each of these rows were converted into individual text files of patient records.<br>
